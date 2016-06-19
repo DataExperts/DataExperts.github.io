@@ -1,0 +1,47 @@
+﻿@model dexih_public.Models.EarlyAccessModel
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Early Access Submission Complete</title>
+
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet">
+    <link href="~/Fonts/font-awesome/css/font-awesome.css" rel="stylesheet">
+
+    <link href="~/Content/animate.css" rel="stylesheet">
+    <link href="~/Content/style.css" rel="stylesheet">
+
+</head>
+
+<body class="gray-bg">
+
+
+    <div class="middle-box text-center animated fadeInDown">
+        <h2 class="font-bold">Thanks, and welcome.</h2>
+        <h3 class="font-bold">We have received your submission @Model.Name.</h3>
+
+        <div class="error-desc">
+            Thank you for your interest in the Integration Hub.<br />
+            We have received your submission, and sent a short confirmation email to @Model.Email.
+            If you did not receive the email, send us your details  <br/> 
+            <a href="mailto:enquire@dataexpertsgroup.com" class="btn btn-primary">Send us mail</a>
+            <br />
+            <br />
+            You can go back to main page: <br /><a href="@Url.Action("Index", "Home")" class="btn btn-primary m-t">Home</a>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
+
+
