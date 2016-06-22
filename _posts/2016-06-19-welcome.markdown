@@ -1,0 +1,12 @@
+---
+layout: post
+title:  "Welcome to the Data Experts!"
+date:   2016-06-19 17:06:01 +1000
+categories: updates
+---
+Hi,
+
+Thanks for your interest in our products and comming to our site.  We'll be posting more news and blogs soon.
+
+Regards,
+Gary Holland
