@@ -68,7 +68,7 @@ As this work start to give insights, then consider where there are "quick win" o
 * Classify data, and educate staff how to use data.
 * Apply ownership and accountability to data.
 
-The final part of moving forward is to introduce a longer term information strategy for the organization.  The information strategy should lay out the governance and processes will encourage, and where neccessary enforce, a data focused culture.  
+The final part of moving forward is to introduce a longer term information strategy for the organization.  The information strategy should lay out the governance and processes will encourage, and where necessary enforce, a data focused culture.  
 
 With the understanding in place, and a company culture committed to improving it, the organization is in a great place to get the technical solutions (such as the Information Hub) in place to consolidate and improve data.
 
