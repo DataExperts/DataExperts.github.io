@@ -2,6 +2,7 @@
 layout: post
 title:  "Do you trust your data?"
 date:   2016-06-19 17:06:01 +1000
+author: Gary Holland
 categories: updates
 ---
 
@@ -40,7 +41,7 @@ The first part of moving to an organization that trusts it’s data is to set go
 
 1.	**Focus on Understanding** – In the pre-digital world, data was simple enough that executives tended to have a good understating of their data.  In modern systems data generated can be the result of millions of calculations, passing through dozens of disparate applications and manual processes.   Being able to verify the accuracy of data and trace it to its origins can be a larger challenge then the initial processing, however it will turn the business focus from “is this data right” to “how do we react to what this information tells us”.
 
-2.	**Reduce the Cost of Change** – The more data integrations that are put in place, the more difficult can be become to change these.  The biggest cost impact if often not the change itself, but the cost to access the impacts of the change on the other systems.  This can have a huge impact when large changes are needed, such as mergers, restructures or modernising processes and core systems.  Additionally, it hinders the ability to implement small changes, with the spiralling cost of these changes outweighing the benefit.  To avoid the cost of change, often tactical decisions are made to create new processes (rather than modify the old) which in turn causes spiralling complexity and less understanding of systems and data.  
+2.	**Reduce the Cost of Change** – The more data integrations that are put in place, the more difficult can be become to change these.  The biggest cost impact if often not the change itself, but the cost to access the impacts of the change on the other systems.  This can have a huge impact when large changes are needed, such as mergers, restructures or modernising processes and core systems.  Additionally, it hinders the ability to implement small changes, with the spiralling cost of these changes outweighing the benefit.  To avoid the cost of change, often tactical decisions are made to create new processes (and not change the old) which in turn causes spiralling complexity and less understanding of systems and data.  
 
 3.	**Make people accountable for their data** – It is always better to have high quality source data, than to try and clean poor quality data later.  A common challenge is that the people and groups responsible for the production of source data, are not the ones who directly benefit from it being of a high quality, which unsurprisingly results in poor quality data.  The way to address this is to “make people accountable” for their data, and make the accountability real by integrating this into their incentives.  
 
@@ -52,5 +53,23 @@ The first part of moving to an organization that trusts it’s data is to set go
 The Way Forward
 ---
 
+The starting point most organizations is to acknowledge that there is no "silver bullet" answer or prepackaged solution that will solve information management challenges.  The best way forward is to often take a step backward and instead of implementing new solutions, actually invest in understanding the current data and process.  
+
+Some items to consider are:
+
+* Classify data in terms of quality, trust level, currency (i.e. how up to date it is), and sensitivity.
+* Trace where data comes from, and map the trust levels against the trust levels of it's source systems.
+* Review usages of data; who uses it, what systems it is delivered to.
+
+As this work start to give insights, then consider where there are "quick win" opportunities that could start to reduced the information complexity.  Some of these could be to:
+
+* Remove redundant or duplicated data.
+* Improve poor quality data at source.
+* Classify data, and educate staff how to use data.
+* Apply ownership and accountability to data.
+
+The final part of moving forward is to introduce a longer term information strategy for the organization.  The information strategy should lay out the governance and processes will encourage, and where neccessary enforce, a data focused culture.  
+
+With the understanding in place, and a company culture committed to improving it, the organization is in a great place to get the technical solutions (such as the Information Hub) in place to consolidate and improve data.
 
 
