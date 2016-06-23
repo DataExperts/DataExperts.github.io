@@ -1,39 +1,49 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html>
 
-    <div id="inSlider" class="carousel carousel-fade" >
+{% include head.html %}
 
+<body id="page-top" class="landing-page">
+
+    {% include header.html %}
+
+    <div>
         <div class="carousel-inner" role="listbox">
-            <div class="item-active">
+            <div class="item active">
                 <div class="container">
                     <div class="carousel-caption">
                         <h1>
-                            Data Experts Blog
+                            {{ page.title }}
                         </h1>
-                        <p>News and updates on the data experts group....</p>
-                        
+                        <p class="post-meta"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>{% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{%
+                            endif %}</p>
                     </div>
                 </div>
                 <!-- Set background for slide in css -->
-                <div class="header-back one"></div>
-
+                <div class="header-back three"></div>
             </div>
         </div>
     </div>
 
-<section  class="container features">
-    <div class="row">
-<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+    <div class="page-content">
+        <div class="wrapper">
+            <section id="features" class="container services">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="ibox float-e-margins">
+                            <div class="ibox-content">
+                                <div class="hr-line-dashed"></div>
+                                {{ content }}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
 
-  <header class="post-header">
-    <h1 class="post-title" itemprop="name headline">{{ page.title }}</h1>
-    <p class="post-meta"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>{% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}</p>
-  </header>
+    {% include footer.html %} {% include scripts.html %}
 
-  <div class="post-content" itemprop="articleBody">
-    {{ content }}
-  </div>
+</body>
 
-</article>
-    </div></section>
+</html>
