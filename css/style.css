@@ -164,6 +164,9 @@ h1 {
 .header-back.five {
   background: url('../img/header_five.jpg') 50% 0 no-repeat;
 }
+.header-back.six {
+  background: url('../img/header_six.jpg') 50% 0 no-repeat;
+}
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
 /* Carousel base class */
