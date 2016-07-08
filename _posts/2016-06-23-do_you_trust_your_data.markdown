@@ -6,7 +6,7 @@ author: Gary Holland
 categories: updates
 ---
 
-Let’s talk about data management, and how an effective data management strategy will provide you and your stakeholders with confidence in your information.
+Let’s talk about data management, and how an effective data management strategy can give you and your stakeholders  confidence in your information.
 
 
 What is Data Management? 
@@ -25,19 +25,19 @@ Move forward to the information age and data volumes that would have previously 
 The Modern Data Challenges
 ---
 
-Modern technology advances have almost all been driven by companies aiming for cheaper, bigger, faster solutions to deliver their strategic objectives.  This has driven the digital revolution and provided exponentially greater volumes and complexity of data.  Many organizations now manage thousands of data interfaces with terabytes (even petabytes) of data.
+Modern technology advances have almost all been driven by companies aiming for cheaper, bigger, faster solutions to deliver their strategic goals.  This has driven the digital revolution and provided exponentially greater volumes and complexity of data.  Many organizations now manage thousands of data interfaces with terabytes (even petabytes) of data.
 
-When it comes to trusting data it’s a misnomer that massive data volumes that are the root of data management problems.  It is the lack of understanding in organizational data and the complexity associated with managing it that is the heart of the challenge of trusting data.  Organizations often have thousands of systems operating together that are interconnected in a spider web of thousands of real-time integrations and batch processes.   On top of the automated processes, is then a wealth of manual processes involving spreadsheets and small databases.
+When it comes to trusting data it’s a misnomer that massive data volumes are the main challenge.  It is the lack of understanding in organizational data and the complexity associated with managing it that is the greater the challenge.  Organizations often have thousands of systems operating together that are interconnected in a spider web of thousands of real-time integrations and batch processes.   On top of the automated processes, is then a wealth of manual processes involving spreadsheets and small databases.
 
-In the 1990’s, data warehouses were touted as the means to better manage and generate insight from organizational information.   For most larger organizations these platforms are now a well established part of their ecosystems and are considered critical strategic assets.  The problem now for many data warehouses, is as they became critically important, they also stopped becoming agile and able to adapt to change.  This has lead many to build multiple data warehouses, or end up with pockets of tactical reporting systems, and a fragmented data management strategy.
+In the 1990’s, data warehouses were touted as the means to better manage and generate insight from organizational information.   For most larger organizations these platforms are now a well established part of their ecosystems and are considered critical strategic assets.  The problem now for many data warehouses, is as they became critically important, they also stopped being agile and able to adapt to change.  This has lead many companies to build multiple data warehouses, or end up with pockets of tactical reporting systems, and a fragmented data management strategy.
 
-As organizations started to be affected by the cost and difficultly of managing data, vendors started to push “easy” pre-packaged data solutions.  In almost all circumstances these have caused more problems than they solved, and lead to less understanding of data and in turn more data proliferation.  What pre-packaged solutions fail to show is that every organization is different, and their data and their needs reflect this difference, which cannot be easily packaged.
+As organizations started to be affected by the cost and difficultly of managing data, vendors started to push “easy” pre-packaged data solutions.  In almost all circumstances these have caused more problems than they solved, and lead to less understanding of data and in turn more data proliferation.  What pre-packaged solutions fail to show is that every organization is different, which unfortunately is not easily packaged.
 
 
 The Goals
 ---
 
-The first part of moving to an organization that trusts it’s data is to set goals or priorities that are not only focused around building bigger, faster and sexier tools.  Instead the key to establishing data management goals is to start around the old “less is more” principle.  With this is mind the focus can then move to understanding data, removing overly complex and redundant data, and improving information availability both internally and for customers.
+The first part of moving to an organization that trusts it’s data is to set goals and priorities that are not only focused around building bigger, faster and sexier tools.  Instead the key to establishing a data management strategy is to start around the old “less is more” principle.  With this is mind, then focus on understanding data, removing overly complex and redundant data, and improving information availability both internally and for customers.
 
 1.	**Focus on Understanding** – In the pre-digital world, data was simple enough that executives tended to have a good understating of their data.  In modern systems data generated can be the result of millions of calculations, passing through dozens of disparate applications and manual processes.   Being able to verify the accuracy of data and trace it to its origins can be a larger challenge then the initial processing, however it will turn the business focus from “is this data right” to “how do we react to what this information tells us”.
 
