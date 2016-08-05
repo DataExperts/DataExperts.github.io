@@ -3,7 +3,7 @@ layout: post
 title:  "Do you trust your data?"
 date:   2016-06-19 17:06:01 +1000
 author: Gary Holland
-summary: How can an effective data management strategy allows you to have confidence in your information
+summary: How an effective data management strategy gives you confidence in your information
 categories: updates
 ---
 
