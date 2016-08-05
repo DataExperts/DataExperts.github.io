@@ -3,10 +3,11 @@ layout: post
 title:  "Do you trust your data?"
 date:   2016-06-19 17:06:01 +1000
 author: Gary Holland
+summary: How can an effective data management strategy allows you to have confidence in your information
 categories: updates
 ---
 
-Let’s talk about data management, and how an effective data management strategy can give you and your stakeholders  confidence in your information.
+Let’s talk about data management, and how an effective data management strategy can give you and your stakeholders confidence in your information.
 
 
 What is Data Management? 
