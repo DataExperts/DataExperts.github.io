@@ -15,7 +15,7 @@ A data staging environment is an effective way for an organization to quickly im
 
 In the past [data warehouses](https://en.wikipedia.org/wiki/Data_warehouse) and [ODS's](https://en.wikipedia.org/wiki/Operational_data_store) (operational data stores) have been touted as the one-stop-shop for maintaining data in the enterprise.  However, time has proven many times over that maintaining an entire organizations data in a data warehouse with continuously changing applications, regulations, mergers/de-mergers, diverse lines of business and high volumes of data has proven virtually impossible.  The net result is that many maintain multiple data warehouses, which are expensive, and serve only very specific reporting and regulatory needs.  This high cost and complexity of them often drives new projects to avoid the data warehouses, and this is causing an explosion of data silos in the enterprize.  
 
-Data proliferation within the enterprise is not just an inconvenience.  A recent assessment by Veziron determined that at least [80% of organizations](http://news.verizonenterprise.com/2015/03/verizon-2015-pci-compliance-report/) fail to meet their [PCI/DSS](https://en.wikipedia.org/wiki/Payment_Card_Industry_Data_Security_Standard) compliance obligations, leaving them vulnerable to cyber-attacks.  The number of data breaches is increasing damatically with the Privacy Rights Clearing House recording over [900 million breached records](https://www.privacyrights.org/data-breach) that have been made public since 2005.
+Data proliferation within the enterprise is not just an inconvenience.  A recent assessment by Veziron determined that at least [80% of organizations](http://news.verizonenterprise.com/2015/03/verizon-2015-pci-compliance-report/) fail to meet their [PCI/DSS](https://en.wikipedia.org/wiki/Payment_Card_Industry_Data_Security_Standard) compliance obligations, leaving them vulnerable to cyber-attacks.  The number of data breaches is increasing dramatically with the Privacy Rights Clearing House recording over [900 million breached records](https://www.privacyrights.org/data-breach) that have been made public since 2005.
 
 Recent technologies such as [Big Data](https://en.wikipedia.org/wiki/Big_data) (e.g. Hadoop, NoSql databases, cloud stores) and frameworks such as [Data Lakes](https://en.wikipedia.org/wiki/Data_lake) have delivered capabilities  that can deal with large data volumes of virtually any structure.  For data scientists and organizations looking to find 'needle in the haystack' types of insights, these technologies have been a gold mine.  The pitfall of these technologies is that enterprizes are quickly creating [data graveyards](http://www.pwc.com/us/en/technology-forecast/2014/cloud-computing/assets/pdf/pwc-technology-forecast-data-lakes.pdf) and losing track of the data.  
 
@@ -26,7 +26,7 @@ A data staging framework, can provide some balance by being low cost to maintain
 
 * Provides a secure central resource that can be encrypted and access rights set globally.
 * Reduces data redundancy.
-* A reusable data recourse for projects, data analysts and scientists. 
+* A reusable data resource for projects, data analysts and scientists. 
 * Enable data lineage so all data can be traced to source systems and owners and where it delivered to.
 
 The key attributes of a data staging environment are:
