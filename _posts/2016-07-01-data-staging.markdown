@@ -3,6 +3,7 @@ layout: post
 title:  "The importance of staging data"
 date:   2016-07-01 18:00:00 +1000
 author: Gary Holland
+summary: What is data staging, and why should it be an integral part of an organizations information management strategy?
 categories: updates
 ---
 
@@ -17,7 +18,7 @@ In the past [data warehouses](https://en.wikipedia.org/wiki/Data_warehouse) and 
 
 Data proliferation within the enterprise is not just an inconvenience.  A recent assessment by Veziron determined that at least [80% of organizations](http://news.verizonenterprise.com/2015/03/verizon-2015-pci-compliance-report/) fail to meet their [PCI/DSS](https://en.wikipedia.org/wiki/Payment_Card_Industry_Data_Security_Standard) compliance obligations, leaving them vulnerable to cyber-attacks.  The number of data breaches is increasing dramatically with the Privacy Rights Clearing House recording over [900 million breached records](https://www.privacyrights.org/data-breach) that have been made public since 2005.
 
-Recent technologies such as [Big Data](https://en.wikipedia.org/wiki/Big_data) (e.g. Hadoop, NoSql databases, cloud stores) and frameworks such as [Data Lakes](https://en.wikipedia.org/wiki/Data_lake) have delivered capabilities  that can deal with large data volumes of virtually any structure.  For data scientists and organizations looking to find 'needle in the haystack' types of insights, these technologies have been a gold mine.  The pitfall of these technologies is that enterprizes are quickly creating [data graveyards](http://www.pwc.com/us/en/technology-forecast/2014/cloud-computing/assets/pdf/pwc-technology-forecast-data-lakes.pdf) and losing track of the data.  
+Recent technologies such as [Big Data](https://en.wikipedia.org/wiki/Big_data) (e.g. Hadoop, NoSql databases, cloud stores) and frameworks such as [Data Lakes](https://en.wikipedia.org/wiki/Data_lake) have delivered capabilities  that can deal with large data volumes of virtually any structure.  For data scientists and organizations looking to find 'needle in the haystack' types of insights, these technologies have been a gold mine.  The pitfall of these technologies is that enterprize's are quickly creating [data graveyards](http://www.pwc.com/us/en/technology-forecast/2014/cloud-computing/assets/pdf/pwc-technology-forecast-data-lakes.pdf) and losing track of the data.  
 
 Organizations often skip staging data in favor of point-point interfaces when delivering data to data warehouses or other applications.  These interfaces are often built for specific requirements and cherry pick the fields and datasets as needed.  Tactically this might seem like a quick and efficient approach, however when subsequent projects requires similar data, they will need to build additional interfaces.  Before  long there become a complex, costly and unmanageable set of spaghetti looking interfaces.  
 
