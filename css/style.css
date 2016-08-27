@@ -167,6 +167,37 @@ h1 {
 .header-back.six {
   background: url('../img/header_six.jpg') 50% 0 no-repeat;
 }
+
+.header-top {
+  height: 80px;
+  width: 100%;
+    background: #81A0C1;
+
+}
+
+/* Use for pages that use a short header, rather than fullsize carousel */
+.header-caption {
+  z-index: 10;
+    background: #81A0C1;
+    color: #fff;
+  position: relative;
+}
+
+.header-caption h1 {
+  font-weight: 700;
+  font-size: 38px;
+  text-transform: uppercase;
+  text-shadow: none;
+  letter-spacing: -1.5px;
+  margin-left: 50px;
+}
+.header-caption p {
+  font-weight: 700;
+  text-transform: uppercase;
+  text-shadow: none;
+  margin-left: 50px;
+}
+
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
 /* Carousel base class */
