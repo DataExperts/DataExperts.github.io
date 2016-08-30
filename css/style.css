@@ -510,6 +510,7 @@ fieldset[disabled] .btn-primary.active {
   .carousel-caption h1 {
     font-size: 28px;
   }
+
   .navbar.navbar-scroll .navbar-brand {
     margin-top: 6px;
   }
@@ -522,6 +523,10 @@ fieldset[disabled] .btn-primary.active {
     background: transparent;
     color: inherit;
   }
+
+.navbar-collapse { 
+    max-height: 100% !important; 
+}
   .navbar-default .nav li a {
     color: #676a6c;
   }
@@ -540,6 +545,7 @@ fieldset[disabled] .btn-primary.active {
   .navbar-nav > li > a {
     padding: 20px 10px;
   }
+
   .navbar .navbar-brand {
     margin-top: 6px;
     border-radius: 5px;
