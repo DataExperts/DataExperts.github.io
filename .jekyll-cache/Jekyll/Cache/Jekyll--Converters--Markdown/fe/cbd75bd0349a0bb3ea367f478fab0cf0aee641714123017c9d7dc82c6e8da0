@@ -1,0 +1,14 @@
+I"1<p>In this short video, we demonstrate how the Data Experts Integration Hub can be used to quickly build a metadata driven staging environment.</p>
+
+<p>The video covers the following topics:</p>
+
+<ul>
+  <li>Configure a remote agent.</li>
+  <li>Connect to a local database.</li>
+  <li>Import and configure table metadata.</li>
+  <li>Create staging data links.</li>
+  <li>Schedule the data links to run at regular intervals.</li>
+</ul>
+
+<iframe width="640" height="360" src="https://www.youtube.com/embed/ARMe9jMTwYs" frameborder="0" allowfullscreen=""></iframe>
+:ET

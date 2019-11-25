@@ -2,108 +2,732 @@
 layout: default 
 ---
 
+<header>
 
-<div id="inSlider" class="carousel carousel-fade" data-ride="carousel">
-    <ol class="carousel-indicators">
-        <li data-target="#inSlider" data-slide-to="0" class="active"></li>
-        <li data-target="#inSlider" data-slide-to="1"></li>
-        <li data-target="#inSlider" data-slide-to="2"></li>
-    </ol>
-    <div class="carousel-inner" role="listbox">
-        <div class="item active">
-            <div class="container">
-                <div class="carousel-caption">
-                    <h1>
-                        Do you trust your data?
-                        <br />
-                    </h1>
-                    <p>and do you value it...</p>
-                    <p>
-                        <a class="btn btn-lg btn-primary" href="{% post_url 2016-06-23-do_you_trust_your_data %}" role="button">READ MORE</a>
-                    </p>
-                </div>
-            </div>
-            <!-- Set background for slide in css -->
-            <div class="header-back four"></div>
+    <!-- Navbar -->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark scrolling-navbar">
+      <div class="container">
+
+        <!-- Brand -->
+        <a class="navbar-brand" href="https://mdbootstrap.com/material-design-for-bootstrap/" target="_blank">
+          <strong>MDB</strong>
+        </a>
+
+        <!-- Collapse -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+          aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Links -->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+          <!-- Left -->
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home
+                <span class="sr-only">(current)</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://mdbootstrap.com/material-design-for-bootstrap/" target="_blank">About MDB</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://mdbootstrap.com/getting-started/" target="_blank">Free download</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://mdbootstrap.com/bootstrap-tutorial/" target="_blank">Free tutorials</a>
+            </li>
+          </ul>
+
+          <!-- Right -->
+          <ul class="navbar-nav nav-flex-icons">
+            <li class="nav-item">
+              <a href="https://www.facebook.com/mdbootstrap" class="nav-link" target="_blank">
+                <i class="fa fa-facebook"></i>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="https://twitter.com/MDBootstrap" class="nav-link" target="_blank">
+                <i class="fa fa-twitter"></i>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="https://github.com/mdbootstrap/bootstrap-material-design" class="nav-link"
+                target="_blank">
+                <i class="fa fa-github mr-2"></i>
+              </a>
+            </li>
+            <li class="nav-item">
+                <a href="https://github.com/mdbootstrap/bootstrap-material-design" class="nav-link border border-light rounded"
+                  target="_blank">
+                  <i class="fa fa-user mr-2"></i>Sing Up
+                </a>
+              </li>
+          </ul>
 
         </div>
-        <div class="item">
-            <div class="container">
-                <div class="carousel-caption">
-                    <h1>
-                        Integration Hub
-                    </h1>
-                    <p>Analyze, transform, secure and share your your data</p>
-                    <p>
-                        <a class="btn btn-lg btn-primary" href="integration_hub" role="button">READ MORE</a>
-                    </p>
-                </div>
+
+      </div>
+    </nav>
+    <!-- Navbar -->
+
+    <!-- Full Page Intro -->
+    <div class="view full-page-intro">
+
+      <!--Video source-->
+      <video class="video-intro" autoplay loop muted>
+        <source src="https://mdbootstrap.com/img/video/animation-intro.mp4" type="video/mp4" />
+      </video>
+
+      <!-- Mask & flexbox options-->
+      <div class="mask rgba-blue-light d-flex justify-content-center align-items-center">
+
+        <!-- Content -->
+        <div class="container">
+
+          <!--Grid row-->
+          <div class="row d-flex h-100 justify-content-center align-items-center wow fadeIn">
+
+            <!--Grid column-->
+            <div class="col-md-6 mb-4 white-text text-center text-md-left">
+
+              <h1 class="display-4 font-weight-bold">Learn Bootstrap 4 with MDB</h1>
+
+              <hr class="hr-light">
+
+              <p>
+                <strong>Best & free guide of responsive web design</strong>
+              </p>
+
+              <p class="mb-4 d-none d-md-block">
+                <strong>The most comprehensive tutorial for the Bootstrap 4. Loved by over 500 000 users. Video and written versions
+                  available. Create your own, stunning website.</strong>
+              </p>
+
+              <a target="_blank" href="https://mdbootstrap.com/bootstrap-tutorial/" class="btn btn-outline-white">Start free tutorial
+                <i class="fa fa-graduation-cap ml-2"></i>
+              </a>
+              <a target="_blank" href="https://mdbootstrap.com/getting-started/" class="btn btn-outline-white">Download MDB
+                <i class="fa fa-download ml-2"></i>
+              </a>
+
             </div>
-            <!-- Set background for slide in css -->
-            <div class="header-back five"></div>
+            <!--Grid column-->
+
+            <!--Grid column-->
+            <div class="col-md-6 col-xl-5 mb-4">
+
+              <img src="https://mdbootstrap.com/img/Mockups/Transparent/Small/admin-new.png" alt="" class="img-fluid">
+
+            </div>
+            <!--Grid column-->
+
+          </div>
+          <!--Grid row-->
 
         </div>
-        <div class="item">
-            <div class="container">
-                <div class="carousel-caption">
-                    <h1>Open Source</h1>
-                    <p>Add data integration and other capabilities to your own development.</p>
-                    <p>
-                        <a class="btn btn-lg btn-primary" href="https://github.com/DataExperts/dexih.transforms" role="button">Github</a>
-                    </p>
-                </div>
-            </div>
-            <!-- Set background for slide in css -->
-            <div class="header-back six"></div>
-        </div>
+        <!-- Content -->
+
+      </div>
+      <!-- Mask & flexbox options-->
+
     </div>
-    <a class="left carousel-control" href="#inSlider" role="button" data-slide="prev">
-        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
+    <!-- Full Page Intro -->
+
+</header>
+
+<!--Main layout-->
+<main>
+  <div class="container">
+
+    <!--Section: Main info-->
+    <section class="mt-5 wow fadeIn">
+
+      <!--Grid row-->
+      <div class="row">
+
+        <!--Grid column-->
+        <div class="col-md-6 mb-4">
+
+          <img src="https://mdbootstrap.com/img/Marketing/mdb-press-pack/mdb-main.jpg" class="img-fluid z-depth-1-half" alt="">
+
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-md-6 mb-4">
+
+          <!-- Main heading -->
+          <h3 class="h3 mb-3">Material Design for Bootstrap</h3>
+          <p>This template is created with Material Design for Bootstrap (
+            <strong>MDB</strong> ) framework.</p>
+          <p>Read details below to learn more about MDB.</p>
+          <!-- Main heading -->
+
+          <hr>
+
+          <p>
+            <strong>400+</strong> material UI elements,
+            <strong>600+</strong> material icons,
+            <strong>74</strong> CSS animations, SASS files, templates, tutorials and many more.
+            <strong>Free for personal and commercial use.</strong>
+          </p>
+
+          <!-- CTA -->
+          <a target="_blank" href="https://mdbootstrap.com/getting-started/" class="btn btn-indigo btn-md">Download
+            <i class="fa fa-download ml-1"></i>
+          </a>
+          <a target="_blank" href="https://mdbootstrap.com/components/" class="btn btn-indigo btn-md">Live demo
+            <i class="fa fa-image ml-1"></i>
+          </a>
+
+        </div>
+        <!--Grid column-->
+
+      </div>
+      <!--Grid row-->
+
+    </section>
+    <!--Section: Main info-->
+
+    <hr class="my-5">
+
+    <!--Section: Main features & Quick Start-->
+    <section>
+
+      <h3 class="h3 text-center mb-5">About MDB</h3>
+
+      <!--Grid row-->
+      <div class="row wow fadeIn">
+
+        <!--Grid column-->
+        <div class="col-lg-6 col-md-12 px-4">
+
+          <!--First row-->
+          <div class="row">
+            <div class="col-1 mr-3">
+              <i class="fa fa-code fa-2x indigo-text"></i>
+            </div>
+            <div class="col-10">
+              <h5 class="feature-title">Bootstrap 4</h5>
+              <p class="grey-text">Thanks to MDB you can take advantage of all feature of newest Bootstrap 4.</p>
+            </div>
+          </div>
+          <!--/First row-->
+
+          <div style="height:30px"></div>
+
+          <!--Second row-->
+          <div class="row">
+            <div class="col-1 mr-3">
+              <i class="fa fa-book fa-2x blue-text"></i>
+            </div>
+            <div class="col-10">
+              <h5 class="feature-title">Detailed documentation</h5>
+              <p class="grey-text">We give you detailed user-friendly documentation at your disposal. It will help you to implement your ideas
+                easily.
+              </p>
+            </div>
+          </div>
+          <!--/Second row-->
+
+          <div style="height:30px"></div>
+
+          <!--Third row-->
+          <div class="row">
+            <div class="col-1 mr-3">
+              <i class="fa fa-graduation-cap fa-2x cyan-text"></i>
+            </div>
+            <div class="col-10">
+              <h5 class="feature-title">Lots of tutorials</h5>
+              <p class="grey-text">We care about the development of our users. We have prepared numerous tutorials, which allow you to learn
+                how to use MDB as well as other technologies.</p>
+            </div>
+          </div>
+          <!--/Third row-->
+
+        </div>
+        <!--/Grid column-->
+
+        <!--Grid column-->
+        <div class="col-lg-6 col-md-12">
+
+          <p class="h5 text-center mb-4">Watch our "5 min Quick Start" tutorial</p>
+          <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/cXTThxoywNQ" allowfullscreen></iframe>
+          </div>
+        </div>
+        <!--/Grid column-->
+
+      </div>
+      <!--/Grid row-->
+
+    </section>
+    <!--Section: Main features & Quick Start-->
+
+    <hr class="my-5">
+
+    <!--Section: Not enough-->
+    <section>
+
+      <h2 class="my-5 h3 text-center">Not enough?</h2>
+
+      <!--First row-->
+      <div class="row features-small mb-5 mt-3 wow fadeIn">
+
+        <!--First column-->
+        <div class="col-md-4">
+          <!--First row-->
+          <div class="row">
+            <div class="col-2">
+              <i class="fa fa-check-circle fa-2x indigo-text"></i>
+            </div>
+            <div class="col-10">
+              <h6 class="feature-title">Free for personal and commercial use</h6>
+              <p class="grey-text">Our license is user-friendly. Feel free to use MDB for both private as well as commercial projects.
+              </p>
+              <div style="height:15px"></div>
+            </div>
+          </div>
+          <!--/First row-->
+
+          <!--Second row-->
+          <div class="row">
+            <div class="col-2">
+              <i class="fa fa-check-circle fa-2x indigo-text"></i>
+            </div>
+            <div class="col-10">
+              <h6 class="feature-title">400+ UI elements</h6>
+              <p class="grey-text">An impressive collection of flexible components allows you to develop any project.
+              </p>
+              <div style="height:15px"></div>
+            </div>
+          </div>
+          <!--/Second row-->
+
+          <!--Third row-->
+          <div class="row">
+            <div class="col-2">
+              <i class="fa fa-check-circle fa-2x indigo-text"></i>
+            </div>
+            <div class="col-10">
+              <h6 class="feature-title">600+ icons</h6>
+              <p class="grey-text">Hundreds of useful, scalable, vector icons at your disposal.</p>
+              <div style="height:15px"></div>
+            </div>
+          </div>
+          <!--/Third row-->
+
+          <!--Fourth row-->
+          <div class="row">
+            <div class="col-2">
+              <i class="fa fa-check-circle fa-2x indigo-text"></i>
+            </div>
+            <div class="col-10">
+              <h6 class="feature-title">Fully responsive</h6>
+              <p class="grey-text">It doesn't matter whether your project will be displayed on desktop, laptop, tablet or mobile phone. MDB
+                looks great on each screen.</p>
+              <div style="height:15px"></div>
+            </div>
+          </div>
+          <!--/Fourth row-->
+        </div>
+        <!--/First column-->
+
+        <!--Second column-->
+        <div class="col-md-4 flex-center">
+          <img src="https://mdbootstrap.com/img/Others/screens.png" alt="MDB Magazine Template displayed on iPhone" class="z-depth-0 img-fluid">
+        </div>
+        <!--/Second column-->
+
+        <!--Third column-->
+        <div class="col-md-4 mt-2">
+          <!--First row-->
+          <div class="row">
+            <div class="col-2">
+              <i class="fa fa-check-circle fa-2x indigo-text"></i>
+            </div>
+            <div class="col-10">
+              <h6 class="feature-title">70+ CSS animations</h6>
+              <p class="grey-text">Neat and easy to use animations, which will increase the interactivity of your project and delight your visitors.
+              </p>
+              <div style="height:15px"></div>
+            </div>
+          </div>
+          <!--/First row-->
+
+          <!--Second row-->
+          <div class="row">
+            <div class="col-2">
+              <i class="fa fa-check-circle fa-2x indigo-text"></i>
+            </div>
+            <div class="col-10">
+              <h6 class="feature-title">Plenty of useful templates</h6>
+              <p class="grey-text">Need inspiration? Use one of our predefined templates for free.</p>
+              <div style="height:15px"></div>
+            </div>
+          </div>
+          <!--/Second row-->
+
+          <!--Third row-->
+          <div class="row">
+            <div class="col-2">
+              <i class="fa fa-check-circle fa-2x indigo-text"></i>
+            </div>
+            <div class="col-10">
+              <h6 class="feature-title">Easy installation</h6>
+              <p class="grey-text">5 minutes, a few clicks and... done. You will be surprised at how easy it is.
+              </p>
+              <div style="height:15px"></div>
+            </div>
+          </div>
+          <!--/Third row-->
+
+          <!--Fourth row-->
+          <div class="row">
+            <div class="col-2">
+              <i class="fa fa-check-circle fa-2x indigo-text"></i>
+            </div>
+            <div class="col-10">
+              <h6 class="feature-title">Easy to use and customize</h6>
+              <p class="grey-text">Using MDB is straightforward and pleasant. Components flexibility allows you deep customization. You will
+                easily adjust each component to suit your needs.</p>
+              <div style="height:15px"></div>
+            </div>
+          </div>
+          <!--/Fourth row-->
+        </div>
+        <!--/Third column-->
+
+      </div>
+      <!--/First row-->
+
+    </section>
+    <!--Section: Not enough-->
+
+    <hr class="mb-5">
+
+    <!--Section: More-->
+    <section>
+
+      <h2 class="my-5 h3 text-center">...and even more</h2>
+
+      <!--First row-->
+      <div class="row features-small mt-5 wow fadeIn">
+
+        <!--Grid column-->
+        <div class="col-xl-3 col-lg-6">
+          <!--Grid row-->
+          <div class="row">
+            <div class="col-2">
+              <i class="fa fa-firefox fa-2x mb-1 indigo-text" aria-hidden="true"></i>
+            </div>
+            <div class="col-10 mb-2 pl-3">
+              <h5 class="feature-title font-bold mb-1">Cross-browser compatibility</h5>
+              <p class="grey-text mt-2">Chrome, Firefox, IE, Safari, Opera, Microsoft Edge - MDB loves all browsers; all browsers love MDB.
+              </p>
+            </div>
+          </div>
+          <!--/Grid row-->
+        </div>
+        <!--/Grid column-->
+
+        <!--Grid column-->
+        <div class="col-xl-3 col-lg-6">
+          <!--Grid row-->
+          <div class="row">
+            <div class="col-2">
+              <i class="fa fa-level-up fa-2x mb-1 indigo-text" aria-hidden="true"></i>
+            </div>
+            <div class="col-10 mb-2">
+              <h5 class="feature-title font-bold mb-1">Frequent updates</h5>
+              <p class="grey-text mt-2">MDB becomes better every month. We love the project and enhance as much as possible.
+              </p>
+            </div>
+          </div>
+          <!--/Grid row-->
+        </div>
+        <!--/Grid column-->
+
+        <!--Grid column-->
+        <div class="col-xl-3 col-lg-6">
+          <!--Grid row-->
+          <div class="row">
+            <div class="col-2">
+              <i class="fa fa-comments-o fa-2x mb-1 indigo-text" aria-hidden="true"></i>
+            </div>
+            <div class="col-10 mb-2">
+              <h5 class="feature-title font-bold mb-1">Active community</h5>
+              <p class="grey-text mt-2">Our society grows day by day. Visit our forum and check how it is to be a part of our family.
+              </p>
+            </div>
+          </div>
+          <!--/Grid row-->
+        </div>
+        <!--/Grid column-->
+
+        <!--Grid column-->
+        <div class="col-xl-3 col-lg-6">
+          <!--Grid row-->
+          <div class="row">
+            <div class="col-2">
+              <i class="fa fa-code fa-2x mb-1 indigo-text" aria-hidden="true"></i>
+            </div>
+            <div class="col-10 mb-2">
+              <h5 class="feature-title font-bold mb-1">jQuery 3.x</h5>
+              <p class="grey-text mt-2">MDB is integrated with newest jQuery. Therefore you can use all the latest features which come along with
+                it.
+              </p>
+            </div>
+          </div>
+          <!--/Grid row-->
+        </div>
+        <!--/Grid column-->
+
+      </div>
+      <!--/First row-->
+
+      <!--Second row-->
+      <div class="row features-small mt-4 wow fadeIn">
+
+        <!--Grid column-->
+        <div class="col-xl-3 col-lg-6">
+          <!--Grid row-->
+          <div class="row">
+            <div class="col-2">
+              <i class="fa fa-cubes fa-2x mb-1 indigo-text" aria-hidden="true"></i>
+            </div>
+            <div class="col-10 mb-2">
+              <h5 class="feature-title font-bold mb-1">Modularity</h5>
+              <p class="grey-text mt-2">Material Design for Bootstrap comes with both, compiled, ready to use libraries including all features as
+                well as modules for CSS (SASS files) and JS.</p>
+            </div>
+          </div>
+          <!--/Grid row-->
+        </div>
+        <!--/Grid column-->
+
+        <!--Grid column-->
+        <div class="col-xl-3 col-lg-6">
+          <!--Grid row-->
+          <div class="row">
+            <div class="col-2">
+              <i class="fa fa-question fa-2x mb-1 indigo-text" aria-hidden="true"></i>
+            </div>
+            <div class="col-10 mb-2">
+              <h5 class="feature-title font-bold mb-1">Technical support</h5>
+              <p class="grey-text mt-2">We care about reliability. If you have any questions - do not hesitate to contact us.
+              </p>
+            </div>
+          </div>
+          <!--/Grid row-->
+        </div>
+        <!--/Grid column-->
+
+        <!--Grid column-->
+        <div class="col-xl-3 col-lg-6">
+          <!--Grid row-->
+          <div class="row">
+            <div class="col-2">
+              <i class="fa fa-th fa-2x mb-1 indigo-text" aria-hidden="true"></i>
+            </div>
+            <div class="col-10 mb-2">
+              <h5 class="feature-title font-bold mb-1">Flexbox</h5>
+              <p class="grey-text mt-2">MDB fully supports Flex Box. You can forget about alignment issues.</p>
+            </div>
+          </div>
+          <!--/Grid row-->
+        </div>
+        <!--/Grid column-->
+
+        <!--Grid column-->
+        <div class="col-xl-3 col-lg-6">
+          <!--Grid row-->
+          <div class="row">
+            <div class="col-2">
+              <i class="fa fa-file-code-o fa-2x mb-1 indigo-text" aria-hidden="true"></i>
+            </div>
+            <div class="col-10 mb-2">
+              <h5 class="feature-title font-bold mb-1">SASS files</h5>
+              <p class="grey-text mt-2">Arranged and well documented .scss files can't wait until you compile them.</p>
+            </div>
+          </div>
+          <!--/Grid row-->
+        </div>
+        <!--/Grid column-->
+
+      </div>
+      <!--/Second row-->
+
+    </section>
+    <!--Section: More-->
+
+  </div>
+</main>
+<!--Main layout-->
+
+<!--Footer-->
+<footer class="page-footer text-center font-small mt-4 wow fadeIn">
+
+  <!--Call to action-->
+  <div class="pt-4">
+    <a class="btn btn-outline-white" href="https://mdbootstrap.com/getting-started/" target="_blank" role="button">Download MDB
+      <i class="fa fa-download ml-2"></i>
     </a>
-    <a class="right carousel-control" href="#inSlider" role="button" data-slide="next">
-        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
+    <a class="btn btn-outline-white" href="https://mdbootstrap.com/bootstrap-tutorial/" target="_blank" role="button">Start free tutorial
+      <i class="fa fa-graduation-cap ml-2"></i>
     </a>
+  </div>
+  <!--/.Call to action-->
+
+  <hr class="my-4">
+
+  <!-- Social icons -->
+  <div class="pb-4">
+    <a href="https://www.facebook.com/mdbootstrap" target="_blank">
+      <i class="fa fa-facebook mr-3"></i>
+    </a>
+
+    <a href="https://twitter.com/MDBootstrap" target="_blank">
+      <i class="fa fa-twitter mr-3"></i>
+    </a>
+
+    <a href="https://www.youtube.com/watch?v=7MUISDJ5ZZ4" target="_blank">
+      <i class="fa fa-youtube mr-3"></i>
+    </a>
+
+    <a href="https://plus.google.com/u/0/b/107863090883699620484" target="_blank">
+      <i class="fa fa-google-plus mr-3"></i>
+    </a>
+
+    <a href="https://dribbble.com/mdbootstrap" target="_blank">
+      <i class="fa fa-dribbble mr-3"></i>
+    </a>
+
+    <a href="https://pinterest.com/mdbootstrap" target="_blank">
+      <i class="fa fa-pinterest mr-3"></i>
+    </a>
+
+    <a href="https://github.com/mdbootstrap/bootstrap-material-design" target="_blank">
+      <i class="fa fa-github mr-3"></i>
+    </a>
+
+    <a href="http://codepen.io/mdbootstrap/" target="_blank">
+      <i class="fa fa-codepen mr-3"></i>
+    </a>
+  </div>
+  <!-- Social icons -->
+
+  <!--Copyright-->
+  <div class="footer-copyright py-3">
+    © 2018 Copyright:
+    <a href="https://mdbootstrap.com/bootstrap-tutorial/" target="_blank"> MDBootstrap.com </a>
+  </div>
+  <!--/.Copyright-->
+
+</footer>
+<!--/.Footer-->
+
+<main id="content" role="main">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-6 mx-auto col-md-6 order-md-2">
+        <img src="/img//dexih-view-1.png" class="rounded img-fluid mb-3 mb-md-0 pt-3">
+        <!-- <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="512" height="430" class="img-fluid mb-3 mb-md-0" role="img" viewBox="0 0 1024 860" focusable="false"><title>Bootstrap</title><defs><linearGradient id="c" x1="50%" x2="50%" y1="0%" y2="100%"><stop offset="0%" stop-color="#5C24AE"/><stop offset="100%" stop-color="#30135A"/></linearGradient><path id="b" d="M355.967 242.807l-322 216.395c-44.275 29.754-44.275 78.443 0 108.197l322 216.395c44.275 29.754 116.725 29.754 161 0l322-216.395c44.275-29.754 44.275-78.443 0-108.197l-322-216.395c-44.275-29.754-116.725-29.754-161 0z"/><filter id="a" width="108%" height="112%" x="-4%" y="-4.3%" filterUnits="objectBoundingBox"><feOffset dy="10" in="SourceAlpha" result="shadowOffsetOuter1"/><feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="10"/><feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/></filter><linearGradient id="f" x1="50%" x2="50%" y1="-17.303%" y2="100%"><stop offset="0%" stop-color="#7331D4"/><stop offset="100%" stop-color="#461B84"/></linearGradient><path id="e" d="M355.967 132.807l-322 216.395c-44.275 29.754-44.275 78.443 0 108.197l322 216.395c44.275 29.754 116.725 29.754 161 0l322-216.395c44.275-29.754 44.275-78.443 0-108.197l-322-216.395c-44.275-29.754-116.725-29.754-161 0z"/><filter id="d" width="108%" height="112%" x="-4%" y="-4.3%" filterUnits="objectBoundingBox"><feOffset dy="10" in="SourceAlpha" result="shadowOffsetOuter1"/><feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="10"/><feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/></filter><linearGradient id="i" x1="50%" x2="50%" y1="0%" y2="100%"><stop offset="0%" stop-color="#905BDD"/><stop offset="100%" stop-color="#5521A0"/></linearGradient><path id="h" d="M355.967 22.807l-322 216.395c-44.275 29.754-44.275 78.443 0 108.197l322 216.395c44.275 29.754 116.725 29.754 161 0l322-216.395c44.275-29.754 44.275-78.443 0-108.197l-322-216.395c-44.275-29.754-116.725-29.754-161 0z"/><filter id="g" width="108%" height="112%" x="-4%" y="-4.3%" filterUnits="objectBoundingBox"><feOffset dy="10" in="SourceAlpha" result="shadowOffsetOuter1"/><feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="10"/><feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/></filter></defs><g fill="none"><g transform="translate(75 23)"><use fill="#000" filter="url(#a)" xlink:href="#b"/><use fill="url(#c)" xlink:href="#b"/></g><g transform="translate(75 23)"><use fill="#000" filter="url(#d)" xlink:href="#e"/><use fill="url(#f)" xlink:href="#e"/></g><g transform="translate(75 23)"><use fill="#000" filter="url(#g)" xlink:href="#h"/><use fill="url(#i)" xlink:href="#h"/></g><path fill="#FFF" d="M558.273 447.667L308.036 279.5l97.982-65.847c42.83-28.784 96.789-31.483 134.245-6.311 26.044 17.502 31.214 46.615 11.444 65.724l1.389.934c38.324-19.932 84.107-18.527 117.396 3.845 44.046 29.6 38.671 68.419-14.561 104.193l-97.658 65.629zM447.112 331.01l49.942-33.562c36.935-24.822 42.31-48.249 15.224-66.451-24.798-16.665-55.49-14.453-85.851 5.95l-59.641 40.081 80.326 53.982zm176.532 35.663c37.63-25.289 42.136-48.832 13.203-68.276-28.932-19.444-64.163-15.614-104.042 11.186l-58.789 39.508 87.92 59.084 61.708-41.502z"/></g></svg> -->
+      </div>
+      <div class="col-md-6 order-md-1 text-center text-md-left pr-md-5">
+        <h1 class="mb-3">Data Experts - Integration Hub</h1>
+        <p class="lead">
+          A simple and powerful way to manage your data.
+        </p>
+        <p class="lead mb-4">
+          The Integration Hub is an online platform for extracting, processing and delivering data. Quickly connect to
+          data stored in databases, text files, API's, run analytics and other transformations on the data, then deliver
+          or visualize the results.
+        </p>
+        <div class="row mx-n2 text-center">
+          <a class="btn btn-lg btn-outline-primary" href="" role="button">Getting started &raquo;</a>
+          <a class="btn btn-lg btn-outline-primary ml-2" href="" role="button">See it in action &raquo;</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
+
+<div class="container">
+    <h3>Supported Data Types</h3>
+    <div class="row">
+      <div class="col-3">
+          <img src="/img//oracle_logo.png" class="logo rounded img-fluid mb-3 mb-md-0 pt-3">
+      </div>
+
+      <div class="col-3">
+          <img src="/img//mysql_logo.png" class="logo rounded img-fluid mb-3 mb-md-0 pt-3">
+      </div>
+
+      <div class="col-3">
+          <img src="/img//oracle_logo.png" class="logo rounded img-fluid mb-3 mb-md-0 pt-3">
+      </div>
+    </div>
+    <div class="row">
+        <div class="col-3">
+            <img src="/img//oracle_logo.png" class="logo rounded img-fluid mb-3 mb-md-0 pt-3">
+        </div>
+  
+        <div class="col-3">
+            <img src="/img//oracle_logo.png" class="logo rounded img-fluid mb-3 mb-md-0 pt-3">
+        </div>
+  
+        <div class="col-3">
+            <img src="/img//oracle_logo.png" class="logo rounded img-fluid mb-3 mb-md-0 pt-3">
+        </div>
+      </div>
 </div>
 
-<section class="container features">
-    
-    <div class="row">
-        <div class="col-lg-12 text-center">
-            <div class="navy-line"></div>
-            <h1>Our Products</h1>
-            <p> </p>
+<div class="masthead-followup row m-0 border border-white">
+        <div class="col-12 col-md-4 p-3 p-md-5 bg-light border border-white">
+          <!-- Icon by Bytesize https://github.com/danklammer/bytesize-icons -->
+          <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true" class="text-primary mb-2" viewBox="0 0 32 32" focusable="false"><title>Import</title><path d="M28 22v8H4v-8M16 4v20m-8-8l8 8 8-8"/></svg>
+          <h3>Installation</h3>
+          <p>Include Bootstrap’s source Sass and JavaScript files via npm, Composer or Meteor. Package managed installs don’t include documentation, but do include our build system and readme.</p>
+      
+      <figure class="highlight"><pre><code class="language-sh" data-lang="sh">npm <span class="nb">install </span>bootstrap</code></pre></figure>
+      
+      <figure class="highlight"><pre><code class="language-sh" data-lang="sh">gem <span class="nb">install </span>bootstrap <span class="nt">-v</span> 4.3.1</code></pre></figure>
+      
+          <hr class="half-rule">
+          <a class="btn btn-outline-primary" href="/docs/4.3/getting-started/download/">Read installation docs</a>
         </div>
-    </div>
-
-    <div class="row features-block">
-        <div class="col-lg-6 features-text wow fadeInLeft">
-            <small>Integration Hub</small>
-            <h2>Analyze, transform, secure and share your your data</h2>
-            <p>The Integration Hub is the fastest way to start leveraging your data.  It's feature packed, blazingly fast, and quick to get running.</p>
-            <a href="integration_hub" class="btn btn-primary">Learn more</a>
-            <a href="https://dexih.com/auth/register" class="btn btn-primary">
-                <i class="fa fa-smile-o"></i>&nbsp;Register Now</a>
-            <p></p>
+      
+        <div class="col-12 col-md-4 p-3 p-md-5 bg-light border border-white">
+          <!-- Icon by Bytesize https://github.com/danklammer/bytesize-icons -->
+          <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true" class="text-primary mb-2" viewBox="0 0 32 32" focusable="false"><title>Download</title><path d="M9 22c-9 1-8-10 0-9C6 2 23 2 22 10c10-3 10 13 1 12m-12 4l5 4 5-4m-5-10v14"/></svg>
+          <h3>BootstrapCDN</h3>
+          <p>When you only need to include Bootstrap’s compiled CSS or JS, you can use <a href="https://www.bootstrapcdn.com/">BootstrapCDN</a>.</p>
+      
+      <h5>CSS only</h5>
+      <figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;link</span> <span class="na">rel=</span><span class="s">"stylesheet"</span> <span class="na">href=</span><span class="s">"https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"</span> <span class="na">integrity=</span><span class="s">"sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"</span> <span class="na">crossorigin=</span><span class="s">"anonymous"</span><span class="nt">&gt;</span></code></pre></figure>
+      
+      <h5>JS, Popper.js, and jQuery</h5>
+      <figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;script </span><span class="na">src=</span><span class="s">"https://code.jquery.com/jquery-3.3.1.slim.min.js"</span> <span class="na">integrity=</span><span class="s">"sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"</span> <span class="na">crossorigin=</span><span class="s">"anonymous"</span><span class="nt">&gt;&lt;/script&gt;</span>
+      <span class="nt">&lt;script </span><span class="na">src=</span><span class="s">"https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"</span> <span class="na">integrity=</span><span class="s">"sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"</span> <span class="na">crossorigin=</span><span class="s">"anonymous"</span><span class="nt">&gt;&lt;/script&gt;</span>
+      <span class="nt">&lt;script </span><span class="na">src=</span><span class="s">"https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"</span> <span class="na">integrity=</span><span class="s">"sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"</span> <span class="na">crossorigin=</span><span class="s">"anonymous"</span><span class="nt">&gt;&lt;/script&gt;</span></code></pre></figure>
+          <hr class="half-rule">
+          <a class="btn btn-outline-primary" href="/docs/4.3/layout/overview/">Explore the docs</a>
         </div>
-        <div class="col-lg-6 text-right wow fadeInRight">
-            <img src="img/information_hub_1.png" alt="dashboard" class="img-responsive pull-right">
+      
+        <div class="col-12 col-md-4 p-3 p-md-5 bg-light border border-white">
+          <!-- Icon by Bytesize https://github.com/danklammer/bytesize-icons -->
+          <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true" class="text-primary mb-2" viewBox="0 0 32 32" focusable="false"><title>Lightning</title><path d="M18 13l8-11L8 13l6 6-8 11 18-11z"/></svg>
+          <h3>Official Themes</h3>
+          <p>
+            Take Bootstrap 4 to the next level with official premium themes—toolkits built on Bootstrap with new components and plugins, docs, and build tools.
+          </p>
+          <img class="img-fluid mt-3 mx-auto" srcset="/docs/4.3/assets/img/bootstrap-themes.png,
+                                                      /docs/4.3/assets/img/bootstrap-themes@2x.png 2x"
+                                              src="/docs/4.3/assets/img/bootstrap-themes.png" alt="Bootstrap Themes" width="500" height="200">
+          <hr class="half-rule">
+          <a href="https://themes.getbootstrap.com/" class="btn btn-outline-primary">Browse themes</a>
         </div>
-    </div>
-
-    <div class="row features-block">
-        <div class="col-lg-6 features-text wow fadeInLeft">
-            <small>Open Source Libraries</small>
-            <h2>Flexible, Powerful & Free</h2>
-            <p>We are committed open source.  Are libraries are utilized extensively by our own applications, and are provided as open source to enable Microsoft .Net and Angular developers to build data integration and other capabilities into their applications.
-                These can be utilized commercially and are provided under the Apache licence.</p>
-            <a href="https://github.com/DataExperts/dexih.transforms" class="btn btn-primary">
-                <i class="fa fa-github"></i>&nbsp;Git Hub</a>
-            <p></p>
-        </div>
-        <div class="col-lg-6 text-right wow fadeInRight">
-            <img src="img/transform_libraries.png" alt="dashboard" class="img-responsive pull-right">
-        </div>
-    </div>
-</section>
+      </div>
